@@ -1,26 +1,27 @@
-Windows Event Viewer Web Interface  
+# Windows Event Viewer Web Interface  
 
-This project is a web-based Windows Event Viewer that retrieves event logs from remote machines using WinRM (Windows Remote Management). It allows administrators to securely fetch and analyze event logs by providing hostname, username, and password, displaying them in a structured report format.
+## Overview  
+This project is a **web-based Windows Event Viewer** that retrieves event logs from remote machines using **WinRM (Windows Remote Management)**. It allows administrators to **securely fetch and analyze event logs** by providing **hostname, username, and password**, displaying them in a structured report format.
 
-Features:  
-- Fetch Windows Event Logs via WinRM  
-- User authentication with hostname, username, and password  
-- Interactive UI for log analysis  
-- Report generation for easy viewing  
-- Bootstrap-based AdminLTE dashboard for a modern look  
+## Features  
+- ✅ Fetch Windows Event Logs via **WinRM**  
+- ✅ User authentication with **hostname, username, and password**  
+- ✅ Interactive **UI for log analysis**  
+- ✅ **Report generation** for easy viewing  
+- ✅ **Bootstrap-based AdminLTE dashboard** for a modern look  
 
-Tech Stack:  
-- Python (Backend)  
-- Flask (Web Framework)  
-- WinRM (Remote communication)  
-- HTML, CSS (Frontend)  
-- Bootstrap & AdminLTE (UI & Dashboard Styling)  
+## Tech Stack  
+- **Python** (Backend)  
+- **Flask** (Web Framework)  
+- **WinRM** (Remote communication)  
+- **HTML, CSS** (Frontend)  
+- **Bootstrap & AdminLTE** (UI & Dashboard Styling)  
 
-How It Works:  
-1. Enter hostname, username, and password  
-2. Establish a WinRM connection to fetch event logs  
-3. Display logs in an interactive web UI  
-4. Export or view logs in a report format  
+## How It Works  
+1️⃣ Enter **hostname, username, and password**  
+2️⃣ Establish a **WinRM connection** to fetch event logs  
+3️⃣ Display logs in an **interactive web UI**  
+4️⃣ Export or view logs in a **report format**  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/393654bc-2a6d-4d42-bed6-a37c7edf5221" width="45%">
