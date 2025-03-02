@@ -1,0 +1,112 @@
+.pie-card, .bar-card {
+    max-width: 680px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.pie-card .card-body, .bar-card .card-body {
+    padding: 10px;
+}
+
+.pie-card .card-title, .bar-card .card-title {
+    font-weight: bold;
+}
+
+.pie-card .card-tools, .bar-card .card-tools {
+    float: right;
+    margin-right: 5px;
+}
+
+.pie-card {
+    max-height: 610px;
+    overflow-y: auto;
+}
+
+/* For dragging */
+.sortable .ui-sortable-helper {
+    max-width: 680px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Placeholder during dragging */
+.sort-highlight {
+    height: 100px;
+    border: 2px dashed #ddd;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Maximized card adjustments */
+.pie-card.card-maximized, .bar-card.card-maximized {
+    max-width: none;
+    width: 100%;
+}
+
+.pie-card.card-maximized canvas, .bar-card.card-maximized canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#yearSelect {
+    max-width: 120px; /* Adjust width as necessary */
+    margin-right: 10px;
+}
+
+
+#yearSelect:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-tools {
+    display: flex;
+    align-items: center;
+}
+.card-tools select {
+    margin-right: 10px; /* Adjust spacing between dropdown and buttons */
+}
+
+#logPieChart{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+#eventTypeChart {
+    width: 100% !important;
+    min-height: 50px !important; /* Make sure height adjusts automatically */
+    max-height: auto !important;
+}
+
+.card-body {
+    max-height: none; /* Allow the card body to grow as needed */
+    height: auto; /* Make sure the height is set to auto */
+}
+
+

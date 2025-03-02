@@ -1,0 +1,22 @@
+{
+    "details": [
+        {
+            "hostname": "192.168.64.3",
+            "username": "Rohith",
+            "password": "3855",
+            "evtx": false
+        },
+        {
+            "hostname": "LAPTOP-RA1HU9JB",
+            "username": "arshi",
+            "password": "040898",
+            "evtx": false
+        },
+        {
+            "hostname": "192.168.64.38",
+            "username": "RohithEV",
+            "password": "38",
+            "evtx": true
+        }
+    ]
+}
